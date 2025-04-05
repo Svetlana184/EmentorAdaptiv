@@ -1,0 +1,351 @@
+body {
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  font-family: Raleway;
+  line-height: 120%;
+  color: #353A5A;
+  align-items: center;
+}
+
+header {
+  height: 10vh;
+  width: 90%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+header ul {
+  width: 55vw;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  list-style: none;
+}
+header img {
+  width: 128px;
+  height: 16px;
+}
+
+.breadcrumbs {
+  width: 90%;
+  height: 4vh;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+}
+.breadcrumbs ul {
+  width: 25%;
+  height: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  list-style: none;
+}
+
+.article {
+  height: 130vh;
+  width: 90%;
+}
+.article h2 {
+  font-size: 58px;
+  line-height: 120%;
+}
+.article img {
+  width: 100%;
+}
+.article h6 {
+  font-size: 22px;
+}
+.article div {
+  width: 80%;
+}
+
+.numbers {
+  height: 30vh;
+  width: 90%;
+  margin-top: 7vh;
+  margin-bottom: 7vh;
+}
+.numbers ul {
+  height: 100%;
+  width: 100%;
+  list-style: none;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+.numbers ul li {
+  width: 20%;
+  height: 80%;
+  text-align: center;
+}
+.numbers ul li h3 {
+  font-size: 58px;
+  color: #10B582;
+}
+.numbers ul li p {
+  font-size: 14px;
+}
+
+.relevance {
+  height: 60vh;
+  width: 100%;
+  background-color: #10B582;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+}
+.relevance img {
+  height: 60%;
+  border-radius: 0 120px 0 0;
+}
+.relevance div {
+  height: 70%;
+  width: 37%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.relevance div h2 {
+  font-size: 3em;
+  color: white;
+  line-height: 120%;
+}
+.relevance div p {
+  font-size: 16px;
+  color: white;
+}
+
+.program {
+  margin-top: 7vh;
+  margin-bottom: 7vh;
+  height: 50vh;
+  width: 90%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+  text-align: center;
+}
+.program h2 {
+  font-size: 58px;
+}
+.program ul {
+  width: 100%;
+  height: 40%;
+  list-style: none;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+.program ul li {
+  padding: 20px;
+  text-align: left;
+  width: 19%;
+  height: 70%;
+  box-shadow: 5px 5px 5px 5px rgb(235, 235, 235);
+  font-size: 14px;
+}
+.program ul li div {
+  width: 100%;
+  height: 20%;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+.program ul li div img {
+  height: 60%;
+  margin-right: 10px;
+}
+.program ul li div h6 {
+  font-size: 16px;
+}
+.program button {
+  width: 20%;
+}
+
+.banner {
+  margin-bottom: 15vh;
+  height: 60vh;
+  width: 100%;
+  background-image: url(/assets/banner_pic.png);
+  background-position: hover;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  justify-content: center;
+}
+.banner div {
+  width: 40%;
+  height: 70%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.banner div h2 {
+  font-size: 54px;
+  line-height: 120%;
+}
+
+.faq {
+  width: 70%;
+  height: 90vh;
+  text-align: center;
+  margin-bottom: 10vh;
+}
+.faq h2 {
+  font-size: 58px;
+}
+.faq ul {
+  list-style: none;
+  text-align: left;
+  width: 100%;
+  height: 85%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.faq ul .form_1 {
+  padding: 20px 10px;
+  width: 100%;
+  height: 20%;
+  box-shadow: 5px 5px 5px 5px rgb(219, 219, 219);
+  display: flex;
+  flex-direction: row;
+  border-radius: 15px;
+}
+.faq ul .form_1 div {
+  width: 95%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.faq ul .form_1 div h5 {
+  font-size: 22px;
+  margin: 0;
+}
+.faq ul .form_1 div p {
+  font-size: 16px;
+}
+.faq ul .form_1 img {
+  width: 35px;
+  height: 35px;
+}
+.faq ul .form_2 {
+  padding: 20px 10px;
+  width: 100%;
+  height: 7%;
+  box-shadow: 5px 5px 5px 5px rgb(219, 219, 219);
+  display: flex;
+  flex-direction: row;
+  border-radius: 15px;
+  justify-content: space-between;
+  align-items: center;
+}
+.faq ul .form_2 h5 {
+  font-size: 22px;
+}
+.faq ul .form_2 img {
+  width: 35px;
+  height: 35px;
+}
+
+footer {
+  width: 100%;
+  height: 40vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+}
+footer .footer_top {
+  width: 90%;
+  height: 90%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  padding: 10px;
+}
+footer .footer_top .div_first {
+  width: 30%;
+  height: 60%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+footer .footer_top .div_last {
+  width: 20%;
+}
+footer .footer_top ul {
+  height: 60%;
+  list-style: none;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+footer .footer_top .logo {
+  width: 55%;
+}
+footer .footer_bottom {
+  width: 90%;
+  height: 10%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  font-size: 14px;
+}
+footer .footer_bottom div {
+  width: 40%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+footer .create_line {
+  width: 100%;
+  height: 1px;
+  background-color: rgb(199, 199, 199);
+  margin-top: 5px;
+  margin-bottom: 5px;
+}
+
+a {
+  color: #353A5A;
+  text-decoration: none;
+}
+
+.button_green {
+  background-color: #10B582;
+  width: 40%;
+  height: 15%;
+  color: white;
+  font-size: 16px;
+  border-radius: 0 30px 0 30px;
+  border-color: #10B582;
+}
+
+.button_orange {
+  background-color: orange;
+  width: 40%;
+  height: 15%;
+  color: white;
+  font-size: 16px;
+  border-radius: 0 30px 0 30px;
+  border-color: orange;
+}
+
+@font-face {
+  font-family: Raleway;
+  src: url(Raleway/Raleway-VariableFont_wght.ttf);
+}/*# sourceMappingURL=courses_style.css.map */

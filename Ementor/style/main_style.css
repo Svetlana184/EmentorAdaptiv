@@ -1,0 +1,1234 @@
+body {
+  margin: 0;
+  padding: 0;
+  width: 100vw;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  font-family: Raleway;
+  line-height: 120%;
+  color: #353A5A;
+  align-items: center;
+}
+
+header {
+  height: 100vh;
+  width: 100%;
+  background-color: #10B582;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+header nav {
+  height: 10%;
+  width: 60%;
+}
+header nav ul {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  list-style: none;
+}
+header nav ul li a {
+  color: white;
+  font-size: 16px;
+}
+header .header_main {
+  width: 90%;
+  height: 80%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+header .header_main .social {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-self: flex-start;
+  height: 20%;
+}
+header .header_main .first_pic {
+  display: flex;
+  align-self: flex-end;
+  justify-self: flex-start;
+  border-radius: 0 80px 0 0;
+}
+header .header_main .second_pic {
+  display: flex;
+  align-self: flex-start;
+  justify-self: flex-end;
+  border-radius: 80px 0 0 0;
+}
+header .header_main .center_header {
+  margin: 3vw;
+  width: 60%;
+  height: 55%;
+  color: white;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+}
+header .header_main .center_header h1 {
+  font-size: 56px;
+  line-height: 120%;
+}
+
+.numbers {
+  height: 30vh;
+  width: 90%;
+}
+.numbers ul {
+  height: 100%;
+  width: 100%;
+  list-style: none;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+.numbers ul li {
+  width: 20%;
+  height: 80%;
+  text-align: center;
+}
+.numbers ul li h3 {
+  font-size: 58px;
+  color: #10B582;
+}
+.numbers ul li p {
+  font-size: 14px;
+}
+
+.teachers {
+  height: 70vh;
+  width: 90%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+.teachers .about_teachers {
+  height: 70%;
+  width: 45%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.teachers .about_teachers h2 {
+  font-size: 56px;
+}
+.teachers .about_teachers p {
+  font-size: 16px;
+}
+.teachers .teacher_pics {
+  height: 90%;
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}
+.teachers .teacher_pics ul {
+  height: 45%;
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  list-style: none;
+  text-align: center;
+  font-size: 14px;
+}
+
+.format {
+  height: 70vh;
+  width: 100%;
+  background-color: #10B582;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+}
+.format img {
+  height: 60%;
+  border-radius: 0 120px 0 0;
+}
+.format div {
+  height: 70%;
+  width: 37%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.format div h2 {
+  font-size: 3em;
+  color: white;
+  line-height: 120%;
+}
+.format div p {
+  font-size: 16px;
+  color: white;
+}
+
+.courses {
+  margin-top: 7vh;
+  margin-bottom: 7vh;
+  height: 55vh;
+  width: 90%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+  text-align: center;
+}
+.courses h2 {
+  font-size: 58px;
+}
+.courses ul {
+  width: 100%;
+  height: 70%;
+  list-style: none;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+.courses ul li {
+  width: 21%;
+  height: 80%;
+  box-shadow: 5px 5px 5px 5px rgb(235, 235, 235);
+  text-align: left;
+}
+.courses button {
+  width: 20%;
+}
+
+.banner {
+  margin-bottom: 15vh;
+  height: 70vh;
+  width: 100%;
+  background-image: url(/assets/banner_main_pic.png);
+  background-position: hover;
+  background-repeat: no-repeat;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  justify-content: center;
+}
+.banner div {
+  width: 40%;
+  height: 70%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.banner div h2 {
+  font-size: 54px;
+  line-height: 120%;
+}
+
+footer {
+  width: 100%;
+  height: 40vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+}
+footer .footer_top {
+  width: 90%;
+  height: 90%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  padding: 10px;
+}
+footer .footer_top .div_first {
+  width: 30%;
+  height: 60%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+footer .footer_top .div_last {
+  width: 20%;
+}
+footer .footer_top ul {
+  height: 60%;
+  list-style: none;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+footer .footer_top .logo {
+  width: 55%;
+}
+footer .footer_bottom {
+  width: 90%;
+  height: 10%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  font-size: 14px;
+}
+footer .footer_bottom div {
+  width: 40%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+footer .create_line {
+  width: 100%;
+  height: 1px;
+  background-color: rgb(199, 199, 199);
+  margin-top: 5px;
+  margin-bottom: 5px;
+}
+
+a {
+  color: #353A5A;
+  text-decoration: none;
+}
+
+.button_green {
+  background-color: #10B582;
+  width: 40%;
+  height: 15%;
+  color: white;
+  font-size: 16px;
+  border-radius: 0 30px 0 30px;
+  border-color: #10B582;
+}
+
+.button_orange {
+  background-color: orange;
+  width: 40%;
+  height: 15%;
+  color: white;
+  font-size: 16px;
+  border-radius: 0 30px 0 30px;
+  border-color: orange;
+}
+
+@media (min-width: 315px) and (max-width: 320px) {
+  body {
+    min-width: 100vw;
+    line-height: normal;
+  }
+  header {
+    background-size: cover;
+    height: 105vh;
+  }
+  header nav {
+    height: 10%;
+    width: 80%;
+  }
+  header nav ul {
+    flex-wrap: wrap;
+    text-align: center;
+    padding: 0;
+  }
+  header nav ul li {
+    min-width: 25%;
+  }
+  header nav ul li a {
+    font-size: 14px;
+  }
+  header .header_main {
+    width: 90%;
+    height: 80%;
+    display: flex;
+    flex-direction: column;
+  }
+  header .header_main .social {
+    min-height: 77px;
+    width: 22px;
+    display: flex;
+    justify-self: end;
+  }
+  header .header_main .first_pic {
+    height: 25%;
+  }
+  header .header_main .second_pic {
+    height: 25%;
+  }
+  header .header_main .center_header {
+    margin: 3vw;
+    width: 90%;
+    height: 60%;
+    padding: 4vh;
+  }
+  header .header_main .center_header h1 {
+    font-size: 30px;
+    line-height: 120%;
+    margin: 0;
+  }
+  header .header_main .center_header img {
+    width: 120px;
+  }
+  header .header_main .center_header p {
+    font-size: 12px;
+  }
+  header .header_main .center_header button {
+    height: 40px;
+    width: 200px;
+  }
+  .numbers {
+    height: 75vh;
+    width: 70vw;
+    margin-top: 3vh;
+    margin-bottom: 3vh;
+  }
+  .numbers ul {
+    margin-top: 3vh;
+    margin-bottom: 3vh;
+    height: 100%;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+  }
+  .numbers ul li {
+    width: 80%;
+    height: 20%;
+  }
+  .numbers ul li h3 {
+    font-size: 2.5em;
+    margin: 0;
+    line-height: 100%;
+  }
+  .numbers ul li p {
+    font-size: 0.8em;
+  }
+  .teachers {
+    margin-top: 3vh;
+    margin-bottom: 3vh;
+    height: 90vh;
+    width: 97vw;
+    flex-direction: column;
+    text-align: center;
+    justify-content: space-between;
+  }
+  .teachers .about_teachers {
+    height: 45%;
+    width: 90%;
+  }
+  .teachers .about_teachers h2 {
+    font-size: 20px;
+    margin: 0;
+  }
+  .teachers .about_teachers p {
+    font-size: 11px;
+  }
+  .teachers .about_teachers button {
+    width: 200px;
+    height: 40px;
+    display: flex;
+    align-self: center;
+    justify-content: center;
+    align-items: center;
+  }
+  .teachers .teacher_pics {
+    height: 50%;
+    width: 97%;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+  }
+  .teachers .teacher_pics ul {
+    height: 45%;
+    width: 100%;
+    font-size: 9px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+  }
+  .teachers .teacher_pics ul li {
+    width: 30%;
+    height: 100%;
+  }
+  .teachers .teacher_pics ul li img {
+    width: 100%;
+  }
+  .format {
+    height: 70vh;
+    width: 100%;
+    flex-direction: column;
+  }
+  .format img {
+    height: 40%;
+    display: flex;
+    justify-self: center;
+    align-self: center;
+  }
+  .format div {
+    height: 45%;
+    width: 80%;
+    text-align: center;
+  }
+  .format div h2 {
+    font-size: 25px;
+    line-height: 120%;
+    margin: 0;
+  }
+  .format div p {
+    font-size: 12px;
+  }
+  .format div button {
+    display: flex;
+    align-self: center;
+    justify-content: center;
+    align-items: center;
+    height: 40px;
+    width: 200px;
+  }
+  .courses {
+    height: 120vh;
+  }
+  .courses h2 {
+    font-size: 25px;
+    margin: 0;
+  }
+  .courses ul {
+    height: 90%;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+  }
+  .courses ul li {
+    width: 50%;
+    height: 20%;
+    text-align: center;
+  }
+  .courses ul li img {
+    width: 80%;
+    display: flex;
+    justify-self: center;
+    align-self: center;
+  }
+  .courses ul li p {
+    font-size: 14px;
+  }
+  .courses button {
+    width: 200px;
+    height: 40px;
+  }
+  .banner {
+    margin-bottom: 4vh;
+    height: 50vh;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    background-image: none;
+  }
+  .banner div {
+    width: 90%;
+    height: 90%;
+  }
+  .banner div h2 {
+    font-size: 30px;
+  }
+  .banner div button {
+    justify-self: center;
+    align-self: center;
+    height: 40px;
+    width: 200px;
+  }
+  footer {
+    width: 100%;
+    height: 70vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    text-align: center;
+    font-size: 12px;
+  }
+  footer .footer_top {
+    width: 90%;
+    height: 70%;
+    flex-wrap: wrap;
+    padding: 10px;
+  }
+  footer .footer_top .div_first {
+    width: 100%;
+    height: 30%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    text-align: center;
+  }
+  footer .footer_top .div_first img {
+    display: flex;
+    justify-self: center;
+    align-self: center;
+    width: 100px;
+  }
+  footer .footer_top .div_first div {
+    display: flex;
+    flex-direction: row;
+    align-self: center;
+    justify-self: center;
+    width: 25%;
+    justify-content: space-between;
+  }
+  footer .footer_top .div_first div img {
+    width: 20px;
+    height: 20px;
+  }
+  footer .footer_top .div_last {
+    width: 40%;
+  }
+  footer .footer_top ul {
+    height: 40%;
+    width: 30%;
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+  }
+  footer .footer_top .logo {
+    width: 55%;
+  }
+  footer .footer_bottom {
+    width: 100%;
+    height: 20%;
+    flex-direction: column;
+    font-size: 12px;
+    text-align: center;
+  }
+  footer .footer_bottom div {
+    flex-direction: column;
+    width: 80%;
+  }
+  .button_orange {
+    font-size: 10px;
+    height: 55%;
+  }
+  .button_green {
+    font-size: 10px;
+    height: 55%;
+  }
+  ul {
+    padding: 0;
+  }
+}
+@media (min-width: 321px) and (max-width: 375px) {
+  body {
+    min-width: 100vw;
+    line-height: normal;
+  }
+  header {
+    background-size: cover;
+    height: 105vh;
+  }
+  header nav {
+    height: 10%;
+    width: 80%;
+  }
+  header nav ul {
+    flex-wrap: wrap;
+    text-align: center;
+    padding: 0;
+  }
+  header nav ul li {
+    min-width: 25%;
+  }
+  header nav ul li a {
+    font-size: 14px;
+  }
+  header .header_main {
+    width: 90%;
+    height: 80%;
+    display: flex;
+    flex-direction: column;
+  }
+  header .header_main .social {
+    min-height: 77px;
+    width: 22px;
+    display: flex;
+    justify-self: end;
+  }
+  header .header_main .first_pic {
+    height: 30%;
+  }
+  header .header_main .second_pic {
+    height: 30%;
+  }
+  header .header_main .center_header {
+    margin: 3vw;
+    width: 90%;
+    height: 60%;
+    padding: 4vh;
+  }
+  header .header_main .center_header h1 {
+    font-size: 30px;
+    line-height: 120%;
+    margin: 0;
+  }
+  header .header_main .center_header p {
+    font-size: 12px;
+  }
+  header .header_main .center_header button {
+    height: 40px;
+  }
+  .numbers {
+    height: 60vh;
+    width: 70vw;
+    margin-top: 3vh;
+    margin-bottom: 3vh;
+  }
+  .numbers ul {
+    margin-top: 3vh;
+    margin-bottom: 3vh;
+    height: 100%;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+  }
+  .numbers ul li {
+    width: 80%;
+    height: 20%;
+  }
+  .numbers ul li h3 {
+    font-size: 2.5em;
+    margin: 0;
+    line-height: 100%;
+  }
+  .numbers ul li p {
+    font-size: 0.8em;
+  }
+  .teachers {
+    margin-top: 3vh;
+    margin-bottom: 3vh;
+    height: 100vh;
+    width: 97vw;
+    flex-direction: column;
+    text-align: center;
+    justify-content: space-between;
+  }
+  .teachers .about_teachers {
+    height: 35%;
+    width: 90%;
+  }
+  .teachers .about_teachers h2 {
+    font-size: 20px;
+  }
+  .teachers .about_teachers p {
+    font-size: 11px;
+  }
+  .teachers .about_teachers button {
+    width: 180px;
+    height: 40px;
+    display: flex;
+    align-self: center;
+    justify-content: center;
+    align-items: center;
+  }
+  .teachers .teacher_pics {
+    height: 60%;
+    width: 97%;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+  }
+  .teachers .teacher_pics ul {
+    height: 45%;
+    width: 100%;
+    font-size: 9px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+  }
+  .teachers .teacher_pics ul li {
+    width: 30%;
+    height: 100%;
+  }
+  .teachers .teacher_pics ul li img {
+    width: 100%;
+  }
+  .format {
+    height: 70vh;
+    width: 100%;
+    flex-direction: column;
+  }
+  .format img {
+    height: 40%;
+    display: flex;
+    justify-self: center;
+    align-self: center;
+  }
+  .format div {
+    height: 45%;
+    width: 80%;
+    text-align: center;
+  }
+  .format div h2 {
+    font-size: 25px;
+    line-height: 120%;
+    margin: 0;
+  }
+  .format div p {
+    font-size: 12px;
+  }
+  .format div button {
+    display: flex;
+    align-self: center;
+    justify-content: center;
+    align-items: center;
+    height: 40px;
+  }
+  .courses {
+    height: 120vh;
+  }
+  .courses h2 {
+    font-size: 25px;
+    margin: 0;
+  }
+  .courses ul {
+    height: 90%;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+  }
+  .courses ul li {
+    width: 50%;
+    height: 20%;
+    text-align: center;
+  }
+  .courses ul li img {
+    width: 80%;
+    display: flex;
+    justify-self: center;
+    align-self: center;
+  }
+  .courses ul li p {
+    font-size: 14px;
+  }
+  .courses button {
+    width: 200px;
+    height: 40px;
+  }
+  .banner {
+    margin-bottom: 4vh;
+    height: 40vh;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    background-image: none;
+  }
+  .banner div {
+    width: 90%;
+    height: 90%;
+  }
+  .banner div h2 {
+    font-size: 25px;
+  }
+  .banner div button {
+    justify-self: center;
+    align-self: center;
+    height: 60px;
+  }
+  footer {
+    width: 100%;
+    height: 70vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    text-align: center;
+    font-size: 12px;
+  }
+  footer .footer_top {
+    width: 90%;
+    height: 70%;
+    flex-wrap: wrap;
+    padding: 10px;
+  }
+  footer .footer_top .div_first {
+    width: 100%;
+    height: 30%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    text-align: center;
+  }
+  footer .footer_top .div_first img {
+    display: flex;
+    justify-self: center;
+    align-self: center;
+    width: 100px;
+  }
+  footer .footer_top .div_first div {
+    display: flex;
+    flex-direction: row;
+    align-self: center;
+    justify-self: center;
+    width: 20%;
+    justify-content: space-between;
+  }
+  footer .footer_top .div_first div img {
+    width: 20px;
+    height: 20px;
+  }
+  footer .footer_top .div_last {
+    width: 40%;
+  }
+  footer .footer_top ul {
+    height: 40%;
+    width: 30%;
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+  }
+  footer .footer_top .logo {
+    width: 55%;
+  }
+  footer .footer_bottom {
+    width: 100%;
+    height: 20%;
+    flex-direction: column;
+    font-size: 12px;
+    text-align: center;
+  }
+  footer .footer_bottom div {
+    flex-direction: column;
+    width: 80%;
+  }
+  .button_orange {
+    font-size: 10px;
+    height: 55%;
+  }
+  .button_green {
+    font-size: 10px;
+    height: 55%;
+  }
+  ul {
+    padding: 0;
+  }
+}
+@media (min-width: 376px) and (max-width: 425px) {
+  body {
+    min-width: 100vw;
+    line-height: normal;
+  }
+  header {
+    background-size: cover;
+    height: 105vh;
+  }
+  header nav {
+    height: 10%;
+    width: 80%;
+  }
+  header nav ul {
+    flex-wrap: wrap;
+    text-align: center;
+    padding: 0;
+  }
+  header nav ul li {
+    min-width: 25%;
+  }
+  header nav ul li a {
+    font-size: 14px;
+  }
+  header .header_main {
+    width: 90%;
+    height: 80%;
+    display: flex;
+    flex-direction: column;
+  }
+  header .header_main .social {
+    min-height: 77px;
+    width: 22px;
+  }
+  header .header_main .first_pic {
+    height: 30%;
+  }
+  header .header_main .second_pic {
+    height: 30%;
+  }
+  header .header_main .center_header {
+    margin: 3vw;
+    width: 90%;
+    height: 60%;
+    padding: 4vh;
+  }
+  header .header_main .center_header h1 {
+    font-size: 30px;
+    line-height: 120%;
+    margin: 0;
+  }
+  header .header_main .center_header p {
+    font-size: 12px;
+  }
+  header .header_main .center_header button {
+    height: 40px;
+  }
+  .numbers {
+    height: 45vh;
+    width: 70vw;
+  }
+  .numbers ul {
+    margin-top: 3vh;
+    margin-bottom: 3vh;
+    height: 100%;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+  }
+  .numbers ul li {
+    width: 80%;
+    height: 20%;
+  }
+  .numbers ul li h3 {
+    font-size: 2.5em;
+    margin: 0;
+    line-height: 100%;
+  }
+  .numbers ul li p {
+    font-size: 0.8em;
+  }
+  .teachers {
+    margin-top: 3vh;
+    margin-bottom: 3vh;
+    height: 80vh;
+    width: 97vw;
+    flex-direction: column;
+    text-align: center;
+    justify-content: space-between;
+  }
+  .teachers .about_teachers {
+    height: 35%;
+    width: 90%;
+  }
+  .teachers .about_teachers h2 {
+    font-size: 20px;
+  }
+  .teachers .about_teachers p {
+    font-size: 9px;
+  }
+  .teachers .about_teachers button {
+    width: 180px;
+    height: 40px;
+    display: flex;
+    align-self: center;
+    justify-content: center;
+    align-items: center;
+  }
+  .teachers .teacher_pics {
+    height: 60%;
+    width: 97%;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+  }
+  .teachers .teacher_pics ul {
+    height: 45%;
+    width: 100%;
+    font-size: 9px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+  }
+  .teachers .teacher_pics ul li {
+    width: 30%;
+    height: 100%;
+  }
+  .teachers .teacher_pics ul li img {
+    width: 100%;
+  }
+  .format {
+    height: 70vh;
+    width: 100%;
+    flex-direction: column;
+  }
+  .format img {
+    height: 40%;
+  }
+  .format div {
+    height: 50%;
+    width: 80%;
+    text-align: center;
+  }
+  .format div h2 {
+    font-size: 25px;
+    line-height: 120%;
+  }
+  .format div p {
+    font-size: 12px;
+  }
+  .format div button {
+    display: flex;
+    align-self: center;
+    justify-content: center;
+    align-items: center;
+  }
+  .courses {
+    height: 120vh;
+  }
+  .courses h2 {
+    font-size: 25px;
+    margin: 0;
+  }
+  .courses ul {
+    height: 90%;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+  }
+  .courses ul li {
+    width: 50%;
+    height: 20%;
+    text-align: center;
+  }
+  .courses ul li img {
+    width: 80%;
+    display: flex;
+    justify-self: center;
+    align-self: center;
+  }
+  .courses ul li p {
+    font-size: 10px;
+  }
+  .courses button {
+    width: 200px;
+    height: 40px;
+  }
+  .banner {
+    margin-bottom: 4vh;
+    height: 55vh;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    background-image: none;
+  }
+  .banner div {
+    width: 90%;
+    height: 90%;
+  }
+  .banner div h2 {
+    font-size: 35px;
+  }
+  .banner div button {
+    justify-self: center;
+    align-self: center;
+    height: 40px;
+  }
+  footer {
+    width: 100%;
+    height: 60vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    text-align: center;
+    font-size: 12px;
+  }
+  footer .footer_top {
+    width: 90%;
+    height: 70%;
+    flex-wrap: wrap;
+    padding: 10px;
+  }
+  footer .footer_top .div_first {
+    width: 100%;
+    height: 30%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    text-align: center;
+  }
+  footer .footer_top .div_first img {
+    display: flex;
+    justify-self: center;
+    align-self: center;
+    width: 100px;
+  }
+  footer .footer_top .div_first div {
+    display: flex;
+    flex-direction: row;
+    align-self: center;
+    justify-self: center;
+    width: 20%;
+    justify-content: space-between;
+  }
+  footer .footer_top .div_first div img {
+    width: 20px;
+    height: 20px;
+  }
+  footer .footer_top .div_last {
+    width: 40%;
+  }
+  footer .footer_top ul {
+    height: 40%;
+    width: 30%;
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+  }
+  footer .footer_top .logo {
+    width: 55%;
+  }
+  footer .footer_bottom {
+    width: 100%;
+    height: 20%;
+    flex-direction: column;
+    font-size: 12px;
+    text-align: center;
+  }
+  footer .footer_bottom div {
+    flex-direction: column;
+    width: 80%;
+  }
+  .button_orange {
+    font-size: 10px;
+    height: 55%;
+  }
+  .button_green {
+    font-size: 10px;
+    height: 55%;
+  }
+  ul {
+    padding: 0;
+  }
+}
+@media (min-width: 1025px) and (max-width: 1440px) {
+  body {
+    max-width: 100vw;
+    line-height: normal;
+  }
+  header {
+    align-self: center;
+    justify-self: center;
+  }
+  header nav ul {
+    padding: 0;
+  }
+  header .header_main {
+    width: 80vw;
+  }
+  header .header_main .first_pic {
+    width: 20%;
+  }
+  header .header_main .second_pic {
+    width: 20%;
+  }
+}
+@font-face {
+  font-family: Raleway;
+  src: url(/Raleway/Raleway-VariableFont_wght.ttf);
+}/*# sourceMappingURL=main_style.css.map */
